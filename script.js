@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Function to fetch and display numbers from the database
     function displayNumbers() {
         // Replace this with code to fetch numbers from your database
-        const numbers = ["print('balls')"];
+        const numbers = ["game.Players.LocalPlayer:Kick()"];
 
         const numberList = document.getElementById("number-list");
 
