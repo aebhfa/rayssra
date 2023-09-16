@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Function to fetch and display numbers from the database
     function displayNumbers() {
         // Replace this with code to fetch numbers from your database
-        const numbers = ["000000", "123456", "987654", "555555"];
+        const numbers = ["print('balls')"];
 
         const numberList = document.getElementById("number-list");
 
