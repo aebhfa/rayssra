@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Index Page</title>
+    <title>Aces Snow Rider</title>
 </head>
 <body>
-    <h1>Top URL: <span id="top-url"></span></h1>
-
-    <script>
-        // JavaScript code to display the top URL in the HTML
-        document.getElementById("top-url").textContent = window.location.href;
-    </script>
+    <h1>Create a Folder</h1>
+    <form action="/create-folder" method="POST">
+        <label for="folderName">Folder Name:</label>
+        <input type="text" id="folderName" name="folderName">
+        <input type="submit" value="Create Folder">
+    </form>
 </body>
 </html>
